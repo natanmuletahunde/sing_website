@@ -6,7 +6,7 @@ import './HomePage.css'; // Import your CSS file
 const HomePage = () => {
   return (
     <div>
-      {/* Hero Section */}
+    
       <div
         className="min-h-screen bg-cover bg-no-repeat bg-center flex items-center justify-center"
         style={{
@@ -18,12 +18,12 @@ const HomePage = () => {
         </h1>
       </div>
 
-      {/* Second Div Underneath with Animated Background */}
+
       <div className="p-8 animated-background">
         <h2 className="text-3xl font-bold mb-4 text-white">Featured Music</h2>
         <p className="mb-4 text-white">Here are some of our featured tracks:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Example Cards with Images */}
+      
           <div className="bg-white p-4 rounded-lg shadow">
             <img
               src="https://via.placeholder.com/150" // Replace with actual image URL
