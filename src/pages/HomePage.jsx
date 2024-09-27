@@ -35,7 +35,7 @@ const HomePage = () => {
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
             <img
-              src="https://via.placeholder.com/150" // Replace with actual image URL
+              src="https://c8.alamy.com/comp/BB89RH/swiss-schlager-singer-christian-duss-performing-live-at-the-9th-schlager-BB89RH.jpg" // Replace with actual image URL
               alt="Track 2"
               className="mb-2 rounded"
             />
