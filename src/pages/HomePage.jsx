@@ -26,7 +26,7 @@ const HomePage = () => {
       
           <div className="bg-white p-4 rounded-lg shadow">
             <img
-              src="https://via.placeholder.com/150" // Replace with actual image URL
+              src="https://variety.com/wp-content/uploads/2024/04/Mandisa.jpg" // Replace with actual image URL
               alt="Track 1"
               className="mb-2 rounded"
             />
