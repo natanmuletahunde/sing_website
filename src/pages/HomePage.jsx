@@ -31,7 +31,7 @@ const HomePage = () => {
               className="mb-2 rounded"
             />
             <h3 className="font-semibold">Track 1</h3>
-            <p>Artist 1</p>
+            <p>Mandisa</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
             <img
