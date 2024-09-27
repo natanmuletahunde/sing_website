@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <main className="min-h-screen">
         <Routes>
@@ -22,7 +22,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
-    </Router>
+    </>
   );
 };
 
