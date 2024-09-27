@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 // src/pages/HomePage.jsx
 import React from 'react';
+import './HomePage.css'; // Import the CSS file for animations
 
 const HomePage = () => {
   return (
@@ -17,10 +18,10 @@ const HomePage = () => {
         </h1>
       </div>
 
-      {/* Second Div Underneath */}
-      <div className="p-8 bg-gray-100">
-        <h2 className="text-3xl font-bold mb-4">Featured Music</h2>
-        <p className="mb-4">Here are some of our featured tracks:</p>
+      {/* Second Div Underneath with Animated Background */}
+      <div className="p-8 animated-background">
+        <h2 className="text-3xl font-bold mb-4 text-white">Featured Music</h2>
+        <p className="mb-4 text-white">Here are some of our featured tracks:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* Example Cards */}
           <div className="bg-white p-4 rounded-lg shadow">
