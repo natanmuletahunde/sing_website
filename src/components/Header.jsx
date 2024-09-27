@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="w-full bg-black bg-opacity-50 p-4 fixed top-0 left-0 z-10">
       <nav className="flex flex-col items-center">
-        <h1 className="text-2xl font-bold text-white mb-4">Music Website</h1>
+        <h1 className="text-2xl font-bold text-white mb-4">Sing Song  Website</h1>
         <ul className="flex justify-center gap-x-8">
           <li>
             <Link to="/" className="text-white hover:underline">
