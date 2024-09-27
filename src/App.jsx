@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
 // src/App.jsx
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
+import { Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ListOfMusic from './pages/ListOfMusic';
+import Header from './components/Header';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import HomePage from './pages/HomePage';
+import ListOfMusic from './pages/ListOfMusic';
+
 
 const App = () => {
   return (
