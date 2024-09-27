@@ -1,22 +1,8 @@
 /* src/pages/HomePage.css */
 
-@keyframes gradient {
-    0% {
-      background-color: #ff7e5f;
-      background-image: linear-gradient(90deg, #ff7e5f, #feb47b);
-    }
-    50% {
-      background-color: #feb47b;
-      background-image: linear-gradient(90deg, #feb47b, #ff7e5f);
-    }
-    100% {
-      background-color: #ff7e5f;
-      background-image: linear-gradient(90deg, #ff7e5f, #feb47b);
-    }
-  }
-  
-  .animated-background {
-    animation: gradient 10s ease infinite;
-    background-size: 200% 200%;
+.animated-background {
+    background-color: #000000; /* Black */
+    background-image: linear-gradient(90deg, #000000, #1e3c72); /* Blue */
+    background-size: cover; /* Ensure the gradient covers the area */
   }
   
