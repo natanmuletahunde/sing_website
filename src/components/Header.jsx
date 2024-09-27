@@ -5,14 +5,30 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-blue-600 p-4 text-white">
-      <nav className="flex justify-between">
-        <h1 className="text-2xl font-bold">Music Website</h1>
+    <header className="w-full bg-black bg-opacity-50 p-4 fixed top-0 left-0 z-10">
+      <nav className="flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-white">Music Website</h1>
         <ul className="flex space-x-4">
-          <li><Link to="/" className="hover:underline">Home</Link></li>
-          <li><Link to="/list" className="hover:underline">List of Music</Link></li>
-          <li><Link to="/about" className="hover:underline">About Us</Link></li>
-          <li><Link to="/contact" className="hover:underline">Contact</Link></li>
+          <li>
+            <Link to="/" className="text-white hover:underline">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/list" className="text-white hover:underline">
+              List of Music
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="text-white hover:underline">
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="text-white hover:underline">
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

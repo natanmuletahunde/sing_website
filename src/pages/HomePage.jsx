@@ -5,7 +5,7 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex items-center justify-center"
+      className="min-h-screen bg-cover bg-no-repeat bg-center flex items-center justify-center"
       style={{
         backgroundImage: `url('https://media.istockphoto.com/id/92026251/photo/hip-hop-musician.jpg?s=612x612&w=0&k=20&c=ZTrTLbbgglN_HWDhy1f_NMr0sJZYunWIEayj_qlBD9A=')`,
       }}
