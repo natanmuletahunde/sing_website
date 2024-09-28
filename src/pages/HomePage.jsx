@@ -66,7 +66,7 @@ const HomePage = () => {
           {/* Additional 4 Example Cards with Christian Singers */}
           <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
             <img
-              src="https://www.cbn.com/superbook/SuperbookClub/Images/ChrisTomlinBio.jpg"
+              src="https://www.life1025.com/wp-content/uploads/2023/06/chris-tomlin-official_19.jpg"
               alt="Track 5"
               className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
             />
@@ -75,7 +75,7 @@ const HomePage = () => {
           </div>
           <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
             <img
-              src="https://cdn.britannica.com/44/211644-050-8A5304F5/Michael-W-Smith-2008.jpg"
+              src="https://www.nederlanderconcerts.com/assets/img/MichaelWSmith_Grove_Press_1440x735-73a776f963.jpg"
               alt="Track 6"
               className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
             />
@@ -84,7 +84,7 @@ const HomePage = () => {
           </div>
           <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
             <img
-              src="https://nashcountrydaily.com/wp-content/uploads/2021/03/Lauren-Daigle-WO_Capture-1.jpg"
+              src="https://d187goyob322lh.cloudfront.net/Pictures/480xAny/0/1/8/38018_laurendaigle_657484.jpg"
               alt="Track 7"
               className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
             />
@@ -93,7 +93,7 @@ const HomePage = () => {
           </div>
           <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
             <img
-              src="https://cdn.horizonatlanta.org/mediafiles/Photos/KariJobe_Large.png"
+              src="https://i.ytimg.com/vi/ix7UIroX4wk/maxresdefault.jpg"
               alt="Track 8"
               className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
             />
