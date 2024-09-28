@@ -28,7 +28,7 @@ const HomePage = () => {
       <img
         src="https://variety.com/wp-content/uploads/2024/04/Mandisa.jpg"
         alt="Track 1"
-        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+        className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
       />
       <h3 className="font-semibold text-white">Track 1</h3>
       <p className="text-white">Mandisa</p>
@@ -37,7 +37,7 @@ const HomePage = () => {
       <img
         src="https://c8.alamy.com/comp/BB89RH/swiss-schlager-singer-christian-duss-performing-live-at-the-9th-schlager-BB89RH.jpg"
         alt="Track 2"
-        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+        className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
       />
       <h3 className="font-semibold text-white">Track 2</h3>
       <p className="text-white">Artist 2</p>
@@ -46,7 +46,7 @@ const HomePage = () => {
       <img
         src="https://julieroys.com/wp-content/uploads/2021/09/AnneWilson-music-artist.png"
         alt="Track 3"
-        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+        className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
       />
       <h3 className="font-semibold text-white">Track 3</h3>
       <p className="text-white">Artist 3</p>
@@ -55,13 +55,14 @@ const HomePage = () => {
       <img
         src="https://cdn.corpemf.com/blogs/19108.png"
         alt="Track 4"
-        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+        className="mb-2 rounded object-cover w-full h-48 transform transition-transform duration-300 ease-in-out hover:scale-105" // Adds hover animation
       />
       <h3 className="font-semibold text-white">Track 4</h3>
       <p className="text-white">Artist 4</p>
     </div>
   </div>
 </div>
+
 
     </div>
   );
