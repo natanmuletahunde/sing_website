@@ -20,48 +20,49 @@ const HomePage = () => {
 
 
       <div className="p-8 animated-background">
-        <h2 className="text-3xl font-bold mb-4 text-white">Featured Music</h2>
-        <p className="mb-4 text-white">Here are some of our featured tracks:</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      
-          <div className="bg-white p-4 rounded-lg shadow">
-            <img
-              src="https://variety.com/wp-content/uploads/2024/04/Mandisa.jpg" // Replace with actual image URL
-              alt="Track 1"
-              className="mb-2 rounded"
-            />
-            <h3 className="font-semibold">Track 1</h3>
-            <p>Mandisa</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <img
-              src="https://c8.alamy.com/comp/BB89RH/swiss-schlager-singer-christian-duss-performing-live-at-the-9th-schlager-BB89RH.jpg" // Replace with actual image URL
-              alt="Track 2"
-              className="mb-2 rounded"
-            />
-            <h3 className="font-semibold">Track 2</h3>
-            <p>Artist 2</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <img
-              src="https://via.placeholder.com/150" // Replace with actual image URL
-              alt="Track 3"
-              className="mb-2 rounded"
-            />
-            <h3 className="font-semibold">Track 3</h3>
-            <p>Artist 3</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <img
-              src="https://via.placeholder.com/150" // Replace with actual image URL
-              alt="Track 4"
-              className="mb-2 rounded"
-            />
-            <h3 className="font-semibold">Track 4</h3>
-            <p>Artist 4</p>
-          </div>
-        </div>
-      </div>
+  <h2 className="text-3xl font-bold mb-4 text-white">Featured Music</h2>
+  <p className="mb-4 text-white">Here are some of our featured tracks:</p>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    {/* Example Cards */}
+    <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
+      <img
+        src="https://variety.com/wp-content/uploads/2024/04/Mandisa.jpg"
+        alt="Track 1"
+        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+      />
+      <h3 className="font-semibold text-white">Track 1</h3>
+      <p className="text-white">Mandisa</p>
+    </div>
+    <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
+      <img
+        src="https://c8.alamy.com/comp/BB89RH/swiss-schlager-singer-christian-duss-performing-live-at-the-9th-schlager-BB89RH.jpg"
+        alt="Track 2"
+        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+      />
+      <h3 className="font-semibold text-white">Track 2</h3>
+      <p className="text-white">Artist 2</p>
+    </div>
+    <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
+      <img
+        src="https://julieroys.com/wp-content/uploads/2021/09/AnneWilson-music-artist.png"
+        alt="Track 3"
+        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+      />
+      <h3 className="font-semibold text-white">Track 3</h3>
+      <p className="text-white">Artist 3</p>
+    </div>
+    <div className="bg-gradient-to-r from-black to-blue-700 p-4 rounded-lg shadow">
+      <img
+        src="https://cdn.corpemf.com/blogs/19108.png"
+        alt="Track 4"
+        className="mb-2 rounded object-cover w-full h-48" // Ensures uniform image size
+      />
+      <h3 className="font-semibold text-white">Track 4</h3>
+      <p className="text-white">Artist 4</p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
